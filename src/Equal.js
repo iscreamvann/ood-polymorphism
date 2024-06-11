@@ -1,12 +1,12 @@
 class Equal {
-  constructor(val1, val2) {
-    this.val1 = val1
-    this.val2 = val2
+  constructor(a, b) {
+    this.a = a;
+    this.b = b;
   }
 
-  checkEqual() {
-    return this.val1 === this.val2
+  check() {
+    return this.a === this.b;
   }
 }
 
-module.exports = Equal
+module.exports = Equal;
